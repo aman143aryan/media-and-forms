@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content=" width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widt h, initial-scale=1.0">
+    <title>Sign Up and Log In Form</title>
+</head>
+<body style="background-color: black; color: ghostwhite; text: size adjust 1px; d ; " >
+    <h1>SIGN UP YOUR ACCOUNT</h1>
+    <p>please fill this form to create your account</p> 
+    </hr>
+    
+    <form action="/register.js" method="get">
+   <div class="container">
+     <label for="First Name"> <b>First Name</b></label>
+     <input type="First Name" placeholder=" First Name" name=" First name" required>
+    
+    
+
+     <label for="Last name"> <b>Last Name</b></label>
+     <input type="last name" placeholder="Last Name" name="Last Name" required>
+     </hr>
+    </div>
+
+    <div>  
+    <label for="Age"> <b>DOB</b></label>
+    <input type="date" placeholder="date" name="DOB" required>
+    </hr>
+     </div>
+
+
+   <div>
+     <label for="Gender"> <b> Gender</b></label>
+     <select id="Gender" name="Gender">
+     <option value="male"> male</option>
+     <option value="female"> female</option>
+     </select> </br>
+    </div>
+
+    <div>
+     <label for="number"> <b>Mobile Number</b></label>
+     <input type="number" placeholder="7555456615" required>
+     </br>
+     </div>
+
+
+    <div>
+     <label for="Email"> <b>Email</b></label>
+     <input type="email" placeholder="xyz1@gmail.com" name="email" required>
+     </br>
+    </div>
+
+
+    <div> 
+    <label for="password"> <b>password</b></label>
+    <input type="password" placeholder="password" name="password" required>
+    </div>
+
+       <div>
+       <label for=" confirm password"> <b> Confirm password</b></label>
+       <input type="password" placeholder="password" name="password" required>
+       </br> 
+       </div>
+
+
+       <div>
+       <button type="submit">Sign Up</button>
+       </div>
+       </form>
+        
+
+
+       <h2>Sign In</h2>
+       <p> Please Enter your Id for Log In</p>
+     </hr>
+
+     <form action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="aryan.jpg" alt="Avatar" class="avatar">
+        </div></br>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required></br>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required></br>
+              
+          <button type="submit">Login</button></br>
+          <label>
+          </br>
+            <input type="checkbox" checked="checked" name="remember"> Remember me</br>
+          </label>
+        </div>
+       </br>
+         <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+
+
+    
+</body>
+</html>
